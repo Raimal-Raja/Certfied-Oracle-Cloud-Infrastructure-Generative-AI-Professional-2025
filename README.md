@@ -117,15 +117,14 @@ The **OCI Generative AI Course** empowers you to design, fine-tune, and deploy *
 
 ---
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [1 - Fundamentals of Large Language Models](1%20-%20Fundamentals%20of%20Large%20Language%20Models)
 - [2 - OCI Generative AI Service](2%20-%20OCI%20Generative%20AI%20Service)
 - [3 - RAG using Generative AI service and Oracle 23 ai Vector Search](3%20-%20RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search)
 - [Books](Books)
-- [README.md](README.md)
 
 ### Getting started
 
@@ -138,9 +137,15 @@ Open the relevant .ipynb notebook in Jupyter or a compatible notebook environmen
 
 ### Configuration and limitations
 
+These are study notes and learning resources. OCI services and external LLM examples require their own configuration; no paid service or cloud deployment was invoked.
+
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
