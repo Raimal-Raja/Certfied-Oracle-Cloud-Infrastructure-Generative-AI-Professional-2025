@@ -114,3 +114,38 @@ The **OCI Generative AI Course** empowers you to design, fine-tune, and deploy *
 ---
 
 **© Oracle Cloud Infrastructure | Generative AI Professional Learning Path (2025 Edition)**
+
+---
+
+## Repository guide
+
+### Contents
+
+- [1 - Fundamentals of Large Language Models](1%20-%20Fundamentals%20of%20Large%20Language%20Models)
+- [2 - OCI Generative AI Service](2%20-%20OCI%20Generative%20AI%20Service)
+- [3 - RAG using Generative AI service and Oracle 23 ai Vector Search](3%20-%20RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search)
+- [Books](Books)
+- [README.md](README.md)
+
+### Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025.git
+cd Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025
+```
+
+Open the relevant .ipynb notebook in Jupyter or a compatible notebook environment. Inspect its dependency and data-loading cells before running; there is no single shared application entry point.
+
+### Configuration and limitations
+
+### Validation
+
+Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+
+### Contributions
+
+Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
+
+### License
+
+No top-level license file was found during this review.
