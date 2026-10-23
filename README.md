@@ -1,4 +1,55 @@
-# 🤖 Oracle Cloud Infrastructure (OCI) Generative AI Course
+# OCI Generative AI Professional — Study Guide
+
+OCI Generative AI study notes covering LLM foundations, service concepts, RAG, and Oracle vector search.
+
+## Project focus
+
+Learning notes and notebooks. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
+
+## Workflow
+
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+The diagram describes how to work through the material; it is not a deployed service topology.
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`1 - Fundamentals of Large Language Models/`](1%20-%20Fundamentals%20of%20Large%20Language%20Models) | Topic-organized learning material and examples. |
+| [`2 - OCI Generative AI Service/`](2%20-%20OCI%20Generative%20AI%20Service) | Topic-organized learning material and examples. |
+| [`3 - RAG using Generative AI service and Oracle 23 ai Vector Search/`](3%20-%20RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search) | Topic-organized learning material and examples. |
+| [`Books/`](Books) | Project-specific source, resources, or learning material. |
+
+## Getting started
+
+```bash
+git clone https://github.com/Raimal-Raja/Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025.git
+cd Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025
+```
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead.
+
+Open one `.ipynb` file in Jupyter, VS Code, Kaggle, or Colab. Read its dependency and dataset cells before execution. Notebook paths and model/data requirements vary; this repository is not one shared deployable application.
+
+## Verification
+
+Use the setup commands and inspect the selected interface, example, or notebook with known inputs. This documentation review checks repository paths and dependency declarations; it does not claim fresh end-to-end execution or model-quality measurements.
+
+## Detailed project guide
 
 The **Oracle Cloud Infrastructure (OCI) Generative AI Course** provides an **in-depth technical introduction** to **Large Language Models (LLMs)** and their applications. This course explores **LLM architecture**, **fine-tuning techniques**, **multimodal models**, **language agents**, and **code models**, along with practical use cases in **OCI’s Generative AI ecosystem**.
 
@@ -80,22 +131,22 @@ Before enrolling in this course, you should have:
 Here are the key learning resources for this course:
 
 * **Oracle Cloud Infrastructure (OCI) Official Site:**
-  [https://www.oracle.com/cloud/](https://www.oracle.com/cloud/)
+  [http./project
 
 * **OCI Generative AI Documentation:**
-  [https://docs.oracle.com/en-us/iaas/Content/generative-ai/](https://docs.oracle.com/en-us/iaas/Content/generative-ai/)
+  [http./project
 
 * **OCI Generative AI Agents Service:**
-  [https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/)
+  [http./project
 
 * **Oracle 23ai Database Overview:**
-  [https://www.oracle.com/database/ai/](https://www.oracle.com/database/ai/)
+  [http./project
 
 * **OCI Hands-On Labs:**
-  [https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID,P112_PREV_PAGE:16833,112](https://apexapps.oracle.com/pls/apex/f?p=44785:112:0::::P112_CONTENT_ID,P112_PREV_PAGE:16833,112)
+  [http./project
 
 * **Learn About Oracle’s Products – Oracle Cloud Infrastructure:**
-  [https://learn.oracle.com/ols/home](https://learn.oracle.com/ols/home)
+  [http./project
 
 ---
 
@@ -117,36 +168,10 @@ The **OCI Generative AI Course** empowers you to design, fine-tune, and deploy *
 
 ---
 
-## Setup and repository reference
+## Contributing
 
-### Project structure
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
 
-- [1 - Fundamentals of Large Language Models](1%20-%20Fundamentals%20of%20Large%20Language%20Models)
-- [2 - OCI Generative AI Service](2%20-%20OCI%20Generative%20AI%20Service)
-- [3 - RAG using Generative AI service and Oracle 23 ai Vector Search](3%20-%20RAG%20using%20Generative%20AI%20service%20and%20Oracle%2023%20ai%20Vector%20Search)
-- [Books](Books)
+## License
 
-### Getting started
-
-```bash
-git clone https://github.com/Raimal-Raja/Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025.git
-cd Certfied-Oracle-Cloud-Infrastructure-Generative-AI-Professional-2025
-```
-
-Open the relevant .ipynb notebook in Jupyter or a compatible notebook environment. Inspect its dependency and data-loading cells before running; there is no single shared application entry point.
-
-### Configuration and limitations
-
-These are study notes and learning resources. OCI services and external LLM examples require their own configuration; no paid service or cloud deployment was invoked.
-
-### Validation
-
-Recorded checks from the previous maintenance review (2026-10-08): Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
-
-### Contributions
-
-Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
-
-### License
-
-No top-level license file was found during this review.
+No top-level license file is currently tracked. Check reuse permissions with the repository owner.
